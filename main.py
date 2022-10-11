@@ -26,7 +26,7 @@ class CountVectorizer:
         return self._matrix
 
     def get_feature_names(
-            self) -> list:  # геттер , значит возвращает атрибут класса, значит логику всю вывести в фит трансформ
+            self) -> list:
 
         return self._vocabulary
 
