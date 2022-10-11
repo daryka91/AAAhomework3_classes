@@ -1,4 +1,4 @@
-class CountVectorizer:  # без скобок
+class CountVectorizer:
 
     def __init__(self):
         self._vocabulary = []
